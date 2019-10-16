@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report It"
+        android:background="@drawable/corner1"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_alignParentTop="true"
+        android:padding="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPicture"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#ffffff"
+        android:elevation="3dp"
+        app:cardElevation="3dp"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PICTURE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#5c94bd"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            />
+        <ImageView
+            android:id="@+id/ivPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/etArea"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/corner2"
+        android:hint="Your Address"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:background="#5bd1d7"
+        android:layout_marginTop="30dp"
+        android:entries="@array/type_arrays"
+        android:prompt="@string/fire_prompt"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDescription"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btCancel"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/corner"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="CANCEL" />
+        <Button
+            android:id="@+id/btReport"
+            android:textSize="18dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="REPORT" />
+
+
+    </LinearLayout>
+</LinearLayout>

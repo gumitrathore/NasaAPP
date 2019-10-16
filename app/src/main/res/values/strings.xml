@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NasaApp</string>
+    <string name="fire_prompt">Choose type of fire</string>
+
+    <string-array name="type_arrays">
+        <item>Choose a Zone</item>
+        <item>Building</item>
+        <item>Forest</item>
+        <item>Public Event</item>
+    </string-array>
+</resources>

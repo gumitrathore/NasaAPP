@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "967912870170",
+    "firebase_url": "https://nasaapp-c1a22.firebaseio.com",
+    "project_id": "nasaapp-c1a22",
+    "storage_bucket": "nasaapp-c1a22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967912870170:android:e28a9a36788704cea9dca3",
+        "android_client_info": {
+          "package_name": "com.example.nasaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967912870170-263p3ofj3v388djhhoo9fu6ii7icagve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nasaapp",
+            "certificate_hash": "d8dc0aa63379f2d8042d10eebd27bf9450abf9a3"
+          }
+        },
+        {
+          "client_id": "967912870170-5k64pr1j6nhm83n5te92nhkbk63kj79c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi1z6XGAaKURtqWG4Lafh1f6xfjhBfNL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967912870170-5k64pr1j6nhm83n5te92nhkbk63kj79c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
